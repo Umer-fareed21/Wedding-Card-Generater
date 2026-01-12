@@ -33,6 +33,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
+    width: 100%;
 }
 
 .field-group>label {
@@ -40,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-self: center;
 }
 
 .field-group>label>p {
