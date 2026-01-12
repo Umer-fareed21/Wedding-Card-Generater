@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #d4af37;
+    font-family: sans-serif;
+}
+
+/* main card */
+.main {
+    width: 50%;
+    background: #fff;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    font-family: "Tinos", serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #d4af37;
+}
+
+.heading p {
+    font-size: 18px;
+    color: #666363;
+    margin-top: 10px;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background: #d4af37;
+    border: none;
+    margin: 20px 0 40px;
+}
+
+/* buttons grid */
+.cat-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    gap: 40px 60px;
+}
+
+/* button style */
+.btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 0;
+    width: 260px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    color: #6b6b6b;
+
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(135deg, #d4af37, #f7e7a1, #cfa23f) border-box;
+
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+/* hover */
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(212, 175, 55, 0.35);
+    color: #000;
+}

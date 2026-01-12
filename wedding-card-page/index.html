@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEDDING CARD | EDITER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="main">
+        <div class="heading">
+            <h1>CREATE YOUR INVITATION</h1>
+        </div>
+
+        <div class="input-fields">
+            <div>
+                <form class="field-group">
+                    <label for="selecter-1">
+                        <p>Starting Line</p>
+                        <select name="Starting-Line" id="Starting-Line">
+                            <option>In the Name of Allah, the Most Beneficent & the Most Merciful</option>
+                            <option>بِسمِ اللہِ الرَّحمٰنِ الرَّحِيم</option>
+                            <option>Marriages are settled in the heaven but celebrated on earth, May Allah guide this
+                                couple
+                                to the best of happiness, understanding & success! Aameen</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <p>Inviter</p>
+                        <select name="inviter-name" id="inviter-name">
+                            <option>Mr. & Mrs.</option>
+                            <option>Mr.</option>
+                            <option>Mrs.</option>
+                        </select>
+                    </label>
+
+                    <label id="invitername">
+                        <p>Inviter Name</p>
+                        <input type="text" name="inviter-name" id="inviter-name" placeholder="Enter Inviter Name">
+                    </label>
+
+                    <label>
+                        <p>Running Sentence</p>
+                        <select name="Running-Sentence" id="Running-Sentence">
+                            <option>Request the honour of your presence at the auspicious occasion of the</option>
+                            <option>Cordially invite you to attent the</option>
+                            <option>Silicit your gracious presence at the auspicious occasion of the</option>
+                            <option>Will feel honour to have your company at the</option>
+                        </select>
+                    </label>
+
+                    <div class="first-radio">
+                        <label id="first-radio">
+                            <input type="radio" name="first-radio-1" checked>
+                            <p>Wedding Ceremony</p>
+                        </label>
+
+                        <label id="first-radio">
+                            <input type="radio" name="first-radio-1">
+                            <p>Rukhsati</p>
+                        </label>
+                    </div>
+
+                    <label id="Bride-name">
+                        <p>Bride Name</p>
+                        <input type="text" name="Bride-name" id="Bride-Name" placeholder="Enter Bride's Name">
+                    </label>
+
+                    <label id="Bride-Father-name">
+                        <p>D/o.</p>
+                        <input type="text" name="Bride-Father-name" id="Bride-Father-Name"
+                            placeholder="Enter Bride's Father Name">
+                    </label>
+
+                    <label id="Groom-name">
+                        <p>Groom Name</p>
+                        <input type="text" name="Groom-name" id="Groom-Name" placeholder="Enter Groom Name">
+                    </label>
+
+                    <label id="Groom-Father-name">
+                        <p>S/o.</p>
+                        <input type="text" name="Groom-Father-name" id="Groom-Father-Name"
+                            placeholder="Enter Groom's Father Name">
+                    </label>
+
+                    <div class="second-radio">
+                        <label id="InshaAllahon">
+                            <input type="radio" name="InshaAllahon" checked>
+                            <p>Insha Allah on</p>
+                        </label>
+
+                        <label id="WillBeHeldOn">
+                            <input type="radio" name="InshaAllahon">
+                            <p>Will be held on</p>
+                        </label>
+                    </div>
+
+                    <label id="date">
+                        <p>Date</p>
+                        <input type="text" id="dates" placeholder="eg: Thursdau 19th feb 2025">
+                    </label>
+
+                    <div class="third-radio">
+                        <label id="at">
+                            <input type="radio" name="at" checked>
+                            <p>at</p>
+                        </label>
+
+                        <label id="venue">
+                            <input type="radio" name="at">
+                            <p>Venue</p>
+                        </label>
+                    </div>
+
+                    <label id="lawnName">
+                        <p>Lawn/Banquet/Hotel Name</p>
+                        <input type="text" name="Lawn/Banquet/Hotel" id="LawnBanquetHotel"
+                            placeholder="Lawn/Banquet/Hotel....  Name">
+                    </label>
+
+                    <label id="address">
+                        <p>Address</p>
+                        <input type="text" name="address" id="adress" placeholder="enter address">
+                    </label>
+
+                    <div class="forth-radio">
+                        <label id="RSVP">
+                            <input type="radio" name="R.S.V.P" checked>
+                            <p>R.S.V.P</p>
+                        </label>
+
+                        <label id="Awaitingtowelcome">
+                            <input type="radio" name="R.S.V.P">
+                            <p>Awaiting to welcome </p>
+                        </label>
+
+                        <label id="LookingForward">
+                            <input type="radio" name="R.S.V.P">
+                            <p>Looking Forward</p>
+                        </label>
+                    </div>
+
+                    <label id="Names">
+                        <p>Names: Contact</p>
+                        <textarea name="Names" id="Name" placeholder="Name : Phone"></textarea>
+                    </label>
+
+                    <label id="Programme">
+                        <p>Programme</p>
+
+                        <div class="ArrivalofBarat">
+                            <p class="p">Arrival of Barat</p>
+                            <input type="text" name="ArrivalofBarat" id="ArrivalofBarat">
+                            <p class="p">am / pm</p>
+                        </div>
+
+                        <div class="Nikkah">
+                            <p class="p">Nikkah</p>
+                            <input type="text" name="Nikkah" id="Nikkah">
+                            <p class="p">am / pm</p>
+                        </div>
+
+                        <div class="Dinner">
+                            <p class="p">Dinner</p>
+                            <input type="text" name="Dinner" id="Dinner">
+                            <p class="p">am / pm</p>
+                        </div>
+
+                        <div class="Rukhsati">
+                            <p class="p">Rukhsati</p>
+                            <input type="text" name="Rukhsati" id="Rukhsati">
+                            <p class="p">am / pm</p>
+                        </div>
+                    </label>
+
+                    <div class="btn">
+                        <input type="submit" name="submit" id="submit">
+                    </div>
+                </form>
+
+                <div id="card-output" style="margin-top: 50px; text-align: center;">
+                    <canvas id="weddingCardCanvas" width="800" height="800"
+                        style="border: 1px solid #ccc; max-width: 100%; display: none;"></canvas>
+
+                    <div id="download-btns"
+                        style="display: none; margin-top: 20px; gap: 10px; justify-content: center;">
+                        <button id="downloadJPG"
+                            style="padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">Download
+                            JPG</button>
+                        <button id="downloadPDF"
+                            style="padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Download
+                            SVG</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfkit/0.13.0/pdfkit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blob-stream/0.1.3/blob-stream.js"></script>
+</body>
+
+</html>
