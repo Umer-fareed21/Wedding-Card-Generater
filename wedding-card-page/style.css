@@ -151,3 +151,12 @@ p {
     background-color: #fff;
     color: #d4af37;
 }
+
+#font-selection select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Tinos', serif;
+    margin-bottom: 15px;
+}
